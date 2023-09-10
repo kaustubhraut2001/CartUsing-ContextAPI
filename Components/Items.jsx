@@ -8,9 +8,9 @@ const Items = () => {
   return (
 <>
 <h4>{context.Items} </h4>
-<h4>Price : {context.total}</h4>
+<h4>Cart Items List : {context.cart.join(", ")}</h4>
 <h4>Quantity : {context.quantity}</h4>
-<h4>Total : </h4>
+<h4>Total : {context.total}</h4>
 </>
 
 	)
